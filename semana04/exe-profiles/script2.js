@@ -11,7 +11,7 @@ fetch('https://randomuser.me/api/?results=10')
     console.log("SUCESSO!!")
     console.log(data)
     data.results.forEach(pessoas => {
-        const card=document.createElement('div');
+        const card = document.createElement('div');
         card.setAttribute('class', 'card');
         authors.appendChild(card);
 
